@@ -21,6 +21,31 @@
 		B169355B243F2799009F5C01 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = B169355A243F2799009F5C01 /* Circle.m */; };
 		B169355E243F27A8009F5C01 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B169355D243F27A8009F5C01 /* Rectangle.m */; };
 		B1693561243F2885009F5C01 /* ShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693560243F2885009F5C01 /* ShapeFactory.m */; };
+		B1A5BF40244D563600BB69DA /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF3F244D563600BB69DA /* AbstractFactoryViewController.m */; };
+		B1A5BF44244D569C00BB69DA /* AColorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF43244D569C00BB69DA /* AColorFactory.m */; };
+		B1A5BF47244D56B000BB69DA /* AShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF46244D56B000BB69DA /* AShapeFactory.m */; };
+		B1A5BF4C244D574200BB69DA /* ARed.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF4B244D574200BB69DA /* ARed.m */; };
+		B1A5BF4F244D575600BB69DA /* AYellow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF4E244D575600BB69DA /* AYellow.m */; };
+		B1A5BF52244D576400BB69DA /* ABlue.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF51244D576400BB69DA /* ABlue.m */; };
+		B1A5BF55244D57FE00BB69DA /* FactoryProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF54244D57FE00BB69DA /* FactoryProducer.m */; };
+		B1A5BF58244D581100BB69DA /* ACircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF57244D581100BB69DA /* ACircle.m */; };
+		B1A5BF5B244D584700BB69DA /* ARect.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF5A244D584700BB69DA /* ARect.m */; };
+		B1A5BF5E244D588D00BB69DA /* ATriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF5D244D588D00BB69DA /* ATriangle.m */; };
+		B1A5BF61244D742700BB69DA /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF60244D742700BB69DA /* SingletonViewController.m */; };
+		B1A5BF64244D743A00BB69DA /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF63244D743A00BB69DA /* Singleton.m */; };
+		B1A5BF67244D75E100BB69DA /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF66244D75E100BB69DA /* BuilderViewController.m */; };
+		B1A5BF6C244D9DCD00BB69DA /* Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF6B244D9DCD00BB69DA /* Wrapper.m */; };
+		B1A5BF6F244D9DE600BB69DA /* Bottles.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF6E244D9DE600BB69DA /* Bottles.m */; };
+		B1A5BF72244DAA5D00BB69DA /* Burger.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF71244DAA5D00BB69DA /* Burger.m */; };
+		B1A5BF75244DAAF300BB69DA /* ColdDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF74244DAAF300BB69DA /* ColdDrink.m */; };
+		B1A5BF78244DAB5400BB69DA /* VerBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF77244DAB5400BB69DA /* VerBurger.m */; };
+		B1A5BF7B244DAB6500BB69DA /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF7A244DAB6500BB69DA /* ChickenBurger.m */; };
+		B1A5BF7E244DAB8300BB69DA /* Pepsi.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF7D244DAB8300BB69DA /* Pepsi.m */; };
+		B1A5BF81244DAB9200BB69DA /* Coke.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF80244DAB9200BB69DA /* Coke.m */; };
+		B1A5BF84244DACCB00BB69DA /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF83244DACCB00BB69DA /* Meal.m */; };
+		B1A5BF87244DACDB00BB69DA /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF86244DACDB00BB69DA /* MealBuilder.m */; };
+		B1A5BF8A244DDCF700BB69DA /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF89244DDCF700BB69DA /* PrototypeViewController.m */; };
+		B1A5BF8E244DDD9900BB69DA /* PrototypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF8D244DDD9900BB69DA /* PrototypeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +95,62 @@
 		B169355D243F27A8009F5C01 /* Rectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		B169355F243F2885009F5C01 /* ShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeFactory.h; sourceTree = "<group>"; };
 		B1693560243F2885009F5C01 /* ShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeFactory.m; sourceTree = "<group>"; };
+		B1A5BF3E244D563600BB69DA /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
+		B1A5BF3F244D563600BB69DA /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
+		B1A5BF41244D567600BB69DA /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		B1A5BF42244D569C00BB69DA /* AColorFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AColorFactory.h; sourceTree = "<group>"; };
+		B1A5BF43244D569C00BB69DA /* AColorFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AColorFactory.m; sourceTree = "<group>"; };
+		B1A5BF45244D56B000BB69DA /* AShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AShapeFactory.h; sourceTree = "<group>"; };
+		B1A5BF46244D56B000BB69DA /* AShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AShapeFactory.m; sourceTree = "<group>"; };
+		B1A5BF48244D56D300BB69DA /* AShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AShape.h; sourceTree = "<group>"; };
+		B1A5BF49244D56DE00BB69DA /* AColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AColor.h; sourceTree = "<group>"; };
+		B1A5BF4A244D574200BB69DA /* ARed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARed.h; sourceTree = "<group>"; };
+		B1A5BF4B244D574200BB69DA /* ARed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARed.m; sourceTree = "<group>"; };
+		B1A5BF4D244D575600BB69DA /* AYellow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYellow.h; sourceTree = "<group>"; };
+		B1A5BF4E244D575600BB69DA /* AYellow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYellow.m; sourceTree = "<group>"; };
+		B1A5BF50244D576400BB69DA /* ABlue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABlue.h; sourceTree = "<group>"; };
+		B1A5BF51244D576400BB69DA /* ABlue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABlue.m; sourceTree = "<group>"; };
+		B1A5BF53244D57FE00BB69DA /* FactoryProducer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryProducer.h; sourceTree = "<group>"; };
+		B1A5BF54244D57FE00BB69DA /* FactoryProducer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryProducer.m; sourceTree = "<group>"; };
+		B1A5BF56244D581100BB69DA /* ACircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACircle.h; sourceTree = "<group>"; };
+		B1A5BF57244D581100BB69DA /* ACircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACircle.m; sourceTree = "<group>"; };
+		B1A5BF59244D584700BB69DA /* ARect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARect.h; sourceTree = "<group>"; };
+		B1A5BF5A244D584700BB69DA /* ARect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARect.m; sourceTree = "<group>"; };
+		B1A5BF5C244D588D00BB69DA /* ATriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATriangle.h; sourceTree = "<group>"; };
+		B1A5BF5D244D588D00BB69DA /* ATriangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATriangle.m; sourceTree = "<group>"; };
+		B1A5BF5F244D742700BB69DA /* SingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		B1A5BF60244D742700BB69DA /* SingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		B1A5BF62244D743A00BB69DA /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		B1A5BF63244D743A00BB69DA /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		B1A5BF65244D75E100BB69DA /* BuilderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		B1A5BF66244D75E100BB69DA /* BuilderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		B1A5BF68244D994B00BB69DA /* Packing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packing.h; sourceTree = "<group>"; };
+		B1A5BF69244D997700BB69DA /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		B1A5BF6A244D9DCD00BB69DA /* Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		B1A5BF6B244D9DCD00BB69DA /* Wrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wrapper.m; sourceTree = "<group>"; };
+		B1A5BF6D244D9DE600BB69DA /* Bottles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bottles.h; sourceTree = "<group>"; };
+		B1A5BF6E244D9DE600BB69DA /* Bottles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bottles.m; sourceTree = "<group>"; };
+		B1A5BF70244DAA5D00BB69DA /* Burger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Burger.h; sourceTree = "<group>"; };
+		B1A5BF71244DAA5D00BB69DA /* Burger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Burger.m; sourceTree = "<group>"; };
+		B1A5BF73244DAAF300BB69DA /* ColdDrink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColdDrink.h; sourceTree = "<group>"; };
+		B1A5BF74244DAAF300BB69DA /* ColdDrink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColdDrink.m; sourceTree = "<group>"; };
+		B1A5BF76244DAB5400BB69DA /* VerBurger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerBurger.h; sourceTree = "<group>"; };
+		B1A5BF77244DAB5400BB69DA /* VerBurger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerBurger.m; sourceTree = "<group>"; };
+		B1A5BF79244DAB6500BB69DA /* ChickenBurger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
+		B1A5BF7A244DAB6500BB69DA /* ChickenBurger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
+		B1A5BF7C244DAB8300BB69DA /* Pepsi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pepsi.h; sourceTree = "<group>"; };
+		B1A5BF7D244DAB8300BB69DA /* Pepsi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pepsi.m; sourceTree = "<group>"; };
+		B1A5BF7F244DAB9200BB69DA /* Coke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coke.h; sourceTree = "<group>"; };
+		B1A5BF80244DAB9200BB69DA /* Coke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coke.m; sourceTree = "<group>"; };
+		B1A5BF82244DACCB00BB69DA /* Meal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		B1A5BF83244DACCB00BB69DA /* Meal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		B1A5BF85244DACDB00BB69DA /* MealBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MealBuilder.h; sourceTree = "<group>"; };
+		B1A5BF86244DACDB00BB69DA /* MealBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MealBuilder.m; sourceTree = "<group>"; };
+		B1A5BF88244DDCF700BB69DA /* PrototypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
+		B1A5BF89244DDCF700BB69DA /* PrototypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
+		B1A5BF8B244DDD4F00BB69DA /* Prototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
+		B1A5BF8C244DDD9900BB69DA /* PrototypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeModel.h; sourceTree = "<group>"; };
+		B1A5BF8D244DDD9900BB69DA /* PrototypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +323,29 @@
 		B1693540243F187C009F5C01 /* Abstract Factory */ = {
 			isa = PBXGroup;
 			children = (
+				B1A5BF3E244D563600BB69DA /* AbstractFactoryViewController.h */,
+				B1A5BF3F244D563600BB69DA /* AbstractFactoryViewController.m */,
+				B1A5BF41244D567600BB69DA /* AbstractFactory.h */,
+				B1A5BF48244D56D300BB69DA /* AShape.h */,
+				B1A5BF56244D581100BB69DA /* ACircle.h */,
+				B1A5BF57244D581100BB69DA /* ACircle.m */,
+				B1A5BF59244D584700BB69DA /* ARect.h */,
+				B1A5BF5A244D584700BB69DA /* ARect.m */,
+				B1A5BF5C244D588D00BB69DA /* ATriangle.h */,
+				B1A5BF5D244D588D00BB69DA /* ATriangle.m */,
+				B1A5BF49244D56DE00BB69DA /* AColor.h */,
+				B1A5BF4A244D574200BB69DA /* ARed.h */,
+				B1A5BF4B244D574200BB69DA /* ARed.m */,
+				B1A5BF4D244D575600BB69DA /* AYellow.h */,
+				B1A5BF4E244D575600BB69DA /* AYellow.m */,
+				B1A5BF50244D576400BB69DA /* ABlue.h */,
+				B1A5BF51244D576400BB69DA /* ABlue.m */,
+				B1A5BF42244D569C00BB69DA /* AColorFactory.h */,
+				B1A5BF43244D569C00BB69DA /* AColorFactory.m */,
+				B1A5BF45244D56B000BB69DA /* AShapeFactory.h */,
+				B1A5BF46244D56B000BB69DA /* AShapeFactory.m */,
+				B1A5BF53244D57FE00BB69DA /* FactoryProducer.h */,
+				B1A5BF54244D57FE00BB69DA /* FactoryProducer.m */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -249,6 +353,11 @@
 		B1693541243F187C009F5C01 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				B1A5BF88244DDCF700BB69DA /* PrototypeViewController.h */,
+				B1A5BF89244DDCF700BB69DA /* PrototypeViewController.m */,
+				B1A5BF8B244DDD4F00BB69DA /* Prototype.h */,
+				B1A5BF8C244DDD9900BB69DA /* PrototypeModel.h */,
+				B1A5BF8D244DDD9900BB69DA /* PrototypeModel.m */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -256,6 +365,10 @@
 		B1693542243F187C009F5C01 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				B1A5BF5F244D742700BB69DA /* SingletonViewController.h */,
+				B1A5BF60244D742700BB69DA /* SingletonViewController.m */,
+				B1A5BF62244D743A00BB69DA /* Singleton.h */,
+				B1A5BF63244D743A00BB69DA /* Singleton.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -263,6 +376,30 @@
 		B1693543243F187C009F5C01 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				B1A5BF65244D75E100BB69DA /* BuilderViewController.h */,
+				B1A5BF66244D75E100BB69DA /* BuilderViewController.m */,
+				B1A5BF68244D994B00BB69DA /* Packing.h */,
+				B1A5BF69244D997700BB69DA /* Item.h */,
+				B1A5BF6A244D9DCD00BB69DA /* Wrapper.h */,
+				B1A5BF6B244D9DCD00BB69DA /* Wrapper.m */,
+				B1A5BF6D244D9DE600BB69DA /* Bottles.h */,
+				B1A5BF6E244D9DE600BB69DA /* Bottles.m */,
+				B1A5BF70244DAA5D00BB69DA /* Burger.h */,
+				B1A5BF71244DAA5D00BB69DA /* Burger.m */,
+				B1A5BF76244DAB5400BB69DA /* VerBurger.h */,
+				B1A5BF77244DAB5400BB69DA /* VerBurger.m */,
+				B1A5BF79244DAB6500BB69DA /* ChickenBurger.h */,
+				B1A5BF7A244DAB6500BB69DA /* ChickenBurger.m */,
+				B1A5BF73244DAAF300BB69DA /* ColdDrink.h */,
+				B1A5BF74244DAAF300BB69DA /* ColdDrink.m */,
+				B1A5BF7C244DAB8300BB69DA /* Pepsi.h */,
+				B1A5BF7D244DAB8300BB69DA /* Pepsi.m */,
+				B1A5BF7F244DAB9200BB69DA /* Coke.h */,
+				B1A5BF80244DAB9200BB69DA /* Coke.m */,
+				B1A5BF82244DACCB00BB69DA /* Meal.h */,
+				B1A5BF83244DACCB00BB69DA /* Meal.m */,
+				B1A5BF85244DACDB00BB69DA /* MealBuilder.h */,
+				B1A5BF86244DACDB00BB69DA /* MealBuilder.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -518,15 +655,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A5BF4C244D574200BB69DA /* ARed.m in Sources */,
 				B1693558243F2782009F5C01 /* Square.m in Sources */,
+				B1A5BF7E244DAB8300BB69DA /* Pepsi.m in Sources */,
+				B1A5BF5E244D588D00BB69DA /* ATriangle.m in Sources */,
 				B1693561243F2885009F5C01 /* ShapeFactory.m in Sources */,
 				B169355B243F2799009F5C01 /* Circle.m in Sources */,
+				B1A5BF40244D563600BB69DA /* AbstractFactoryViewController.m in Sources */,
+				B1A5BF6C244D9DCD00BB69DA /* Wrapper.m in Sources */,
+				B1A5BF47244D56B000BB69DA /* AShapeFactory.m in Sources */,
+				B1A5BF44244D569C00BB69DA /* AColorFactory.m in Sources */,
+				B1A5BF6F244D9DE600BB69DA /* Bottles.m in Sources */,
 				B1693509243F15B9009F5C01 /* ViewController.m in Sources */,
+				B1A5BF8A244DDCF700BB69DA /* PrototypeViewController.m in Sources */,
+				B1A5BF78244DAB5400BB69DA /* VerBurger.m in Sources */,
+				B1A5BF55244D57FE00BB69DA /* FactoryProducer.m in Sources */,
+				B1A5BF87244DACDB00BB69DA /* MealBuilder.m in Sources */,
 				B169355E243F27A8009F5C01 /* Rectangle.m in Sources */,
+				B1A5BF52244D576400BB69DA /* ABlue.m in Sources */,
+				B1A5BF67244D75E100BB69DA /* BuilderViewController.m in Sources */,
 				B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */,
 				B1693514243F15BB009F5C01 /* main.m in Sources */,
+				B1A5BF61244D742700BB69DA /* SingletonViewController.m in Sources */,
 				B1693554243F18DE009F5C01 /* FactoryViewController.m in Sources */,
+				B1A5BF84244DACCB00BB69DA /* Meal.m in Sources */,
 				B1693506243F15B9009F5C01 /* SceneDelegate.m in Sources */,
+				B1A5BF5B244D584700BB69DA /* ARect.m in Sources */,
+				B1A5BF7B244DAB6500BB69DA /* ChickenBurger.m in Sources */,
+				B1A5BF64244D743A00BB69DA /* Singleton.m in Sources */,
+				B1A5BF81244DAB9200BB69DA /* Coke.m in Sources */,
+				B1A5BF75244DAAF300BB69DA /* ColdDrink.m in Sources */,
+				B1A5BF58244D581100BB69DA /* ACircle.m in Sources */,
+				B1A5BF4F244D575600BB69DA /* AYellow.m in Sources */,
+				B1A5BF8E244DDD9900BB69DA /* PrototypeModel.m in Sources */,
+				B1A5BF72244DAA5D00BB69DA /* Burger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

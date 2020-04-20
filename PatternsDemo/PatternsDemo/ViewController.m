@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 #import "FactoryViewController.h"
+#import "AbstractFactoryViewController.h"
+#import "SingletonViewController.h"
+#import "BuilderViewController.h"
 
 @interface ViewController ()
 
@@ -18,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
+    [self.navigationController pushViewController:[[BuilderViewController alloc] init] animated:YES];
 }
 
 
