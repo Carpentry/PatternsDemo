@@ -7,6 +7,7 @@
 //
 
 #import "PrototypeViewController.h"
+#import "PrototypeModel.h"
 
 @interface PrototypeViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    PrototypeModel *pm = [[PrototypeModel alloc] init];
+    pm.name = @"xixixi";
+    pm.age = 10;
+    [pm display];
+    PrototypeModel *pm2 = [pm copy];
+    [pm2 display];
+    
 }
 
 /*

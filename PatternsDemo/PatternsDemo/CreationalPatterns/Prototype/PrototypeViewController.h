@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PrototypeModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

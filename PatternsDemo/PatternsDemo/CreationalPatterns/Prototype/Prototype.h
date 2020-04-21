@@ -9,6 +9,6 @@
 #ifndef Prototype_h
 #define Prototype_h
 @protocol Prototype <NSObject>
-- (void)clone;
+- (id)clone;
 @end
 #endif /* Prototype_h */

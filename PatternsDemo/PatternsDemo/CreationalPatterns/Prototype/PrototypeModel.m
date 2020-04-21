@@ -10,4 +10,18 @@
 
 @implementation PrototypeModel
 
+- (id)copyWithZone:(NSZone *)zone {
+    PrototypeModel *model =  [[PrototypeModel alloc] init];
+    model.name  = self.name;
+    model.age = self.age;
+    return model;
+}
+
+- (id)clone {
+    return [self copy];
+}
+
+- (void)display{
+   NSLog(@"name:%@:,age:%lu",self.name,self.age);
+}
 @end
