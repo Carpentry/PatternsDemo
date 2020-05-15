@@ -10,5 +10,7 @@
 #define Prototype_h
 @protocol Prototype <NSObject>
 - (id)clone;
+@optional
+- (void)draw;
 @end
 #endif /* Prototype_h */

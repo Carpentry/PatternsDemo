@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B14C2FA5246650380078CD4A /* ProtoShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FA4246650380078CD4A /* ProtoShape.m */; };
+		B14C2FA8246650610078CD4A /* ProtoCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FA7246650610078CD4A /* ProtoCircle.m */; };
+		B14C2FAB2466506F0078CD4A /* ProtoRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FAA2466506F0078CD4A /* ProtoRectangle.m */; };
+		B14C2FAE2466507A0078CD4A /* ProtoSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FAD2466507A0078CD4A /* ProtoSquare.m */; };
+		B14C2FB1246650980078CD4A /* ShapeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FB0246650980078CD4A /* ShapeCache.m */; };
+		B14C2FB424665D380078CD4A /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FB324665D380078CD4A /* AdapterViewController.m */; };
+		B14C2FB924665F6B0078CD4A /* VlcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FB824665F6B0078CD4A /* VlcPlayer.m */; };
+		B14C2FBC24665F7B0078CD4A /* MP4Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FBB24665F7B0078CD4A /* MP4Player.m */; };
+		B14C2FBF246662090078CD4A /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FBE246662090078CD4A /* AudioPlayer.m */; };
+		B14C2FC224667F3A0078CD4A /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FC124667F3A0078CD4A /* MediaAdapter.m */; };
 		B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693502243F15B9009F5C01 /* AppDelegate.m */; };
 		B1693506243F15B9009F5C01 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693505243F15B9009F5C01 /* SceneDelegate.m */; };
 		B1693509243F15B9009F5C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693508243F15B9009F5C01 /* ViewController.m */; };
@@ -46,6 +56,11 @@
 		B1A5BF87244DACDB00BB69DA /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF86244DACDB00BB69DA /* MealBuilder.m */; };
 		B1A5BF8A244DDCF700BB69DA /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF89244DDCF700BB69DA /* PrototypeViewController.m */; };
 		B1A5BF8E244DDD9900BB69DA /* PrototypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A5BF8D244DDD9900BB69DA /* PrototypeModel.m */; };
+		B1B6542C246E69AA00E2F09B /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B6542B246E69AA00E2F09B /* BridgeViewController.m */; };
+		B1B65430246E6A8100E2F09B /* RedCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B6542F246E6A8100E2F09B /* RedCircle.m */; };
+		B1B65433246E6AA700E2F09B /* GreenCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B65432246E6AA700E2F09B /* GreenCircle.m */; };
+		B1B65437246E6B6300E2F09B /* BridgeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B65436246E6B6300E2F09B /* BridgeCircle.m */; };
+		B1B6543A246E6B9400E2F09B /* BridgeShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B65439246E6B9400E2F09B /* BridgeShape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +81,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B14C2FA3246650380078CD4A /* ProtoShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoShape.h; sourceTree = "<group>"; };
+		B14C2FA4246650380078CD4A /* ProtoShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoShape.m; sourceTree = "<group>"; };
+		B14C2FA6246650610078CD4A /* ProtoCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoCircle.h; sourceTree = "<group>"; };
+		B14C2FA7246650610078CD4A /* ProtoCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoCircle.m; sourceTree = "<group>"; };
+		B14C2FA92466506F0078CD4A /* ProtoRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoRectangle.h; sourceTree = "<group>"; };
+		B14C2FAA2466506F0078CD4A /* ProtoRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoRectangle.m; sourceTree = "<group>"; };
+		B14C2FAC2466507A0078CD4A /* ProtoSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoSquare.h; sourceTree = "<group>"; };
+		B14C2FAD2466507A0078CD4A /* ProtoSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoSquare.m; sourceTree = "<group>"; };
+		B14C2FAF246650980078CD4A /* ShapeCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeCache.h; sourceTree = "<group>"; };
+		B14C2FB0246650980078CD4A /* ShapeCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeCache.m; sourceTree = "<group>"; };
+		B14C2FB224665D380078CD4A /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		B14C2FB324665D380078CD4A /* AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		B14C2FB524665E530078CD4A /* MediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		B14C2FB624665E690078CD4A /* AdvancedMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvancedMediaPlayer.h; sourceTree = "<group>"; };
+		B14C2FB724665F6B0078CD4A /* VlcPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VlcPlayer.h; sourceTree = "<group>"; };
+		B14C2FB824665F6B0078CD4A /* VlcPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VlcPlayer.m; sourceTree = "<group>"; };
+		B14C2FBA24665F7B0078CD4A /* MP4Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MP4Player.h; sourceTree = "<group>"; };
+		B14C2FBB24665F7B0078CD4A /* MP4Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MP4Player.m; sourceTree = "<group>"; };
+		B14C2FBD246662090078CD4A /* AudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		B14C2FBE246662090078CD4A /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		B14C2FC024667F3A0078CD4A /* MediaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
+		B14C2FC124667F3A0078CD4A /* MediaAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaAdapter.m; sourceTree = "<group>"; };
 		B16934FE243F15B9009F5C01 /* PatternsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1693501243F15B9009F5C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1693502243F15B9009F5C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +188,17 @@
 		B1A5BF8B244DDD4F00BB69DA /* Prototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
 		B1A5BF8C244DDD9900BB69DA /* PrototypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeModel.h; sourceTree = "<group>"; };
 		B1A5BF8D244DDD9900BB69DA /* PrototypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeModel.m; sourceTree = "<group>"; };
+		B1B6542A246E69AA00E2F09B /* BridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
+		B1B6542B246E69AA00E2F09B /* BridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
+		B1B6542E246E6A8100E2F09B /* RedCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedCircle.h; sourceTree = "<group>"; };
+		B1B6542F246E6A8100E2F09B /* RedCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedCircle.m; sourceTree = "<group>"; };
+		B1B65431246E6AA700E2F09B /* GreenCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenCircle.h; sourceTree = "<group>"; };
+		B1B65432246E6AA700E2F09B /* GreenCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenCircle.m; sourceTree = "<group>"; };
+		B1B65435246E6B6300E2F09B /* BridgeCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeCircle.h; sourceTree = "<group>"; };
+		B1B65436246E6B6300E2F09B /* BridgeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeCircle.m; sourceTree = "<group>"; };
+		B1B65438246E6B9400E2F09B /* BridgeShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeShape.h; sourceTree = "<group>"; };
+		B1B65439246E6B9400E2F09B /* BridgeShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeShape.m; sourceTree = "<group>"; };
+		B1B6543B246E6D6400E2F09B /* DrawAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawAPI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +317,17 @@
 		B1693539243F187C009F5C01 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				B1B6542A246E69AA00E2F09B /* BridgeViewController.h */,
+				B1B6542B246E69AA00E2F09B /* BridgeViewController.m */,
+				B1B6543B246E6D6400E2F09B /* DrawAPI.h */,
+				B1B6542E246E6A8100E2F09B /* RedCircle.h */,
+				B1B6542F246E6A8100E2F09B /* RedCircle.m */,
+				B1B65431246E6AA700E2F09B /* GreenCircle.h */,
+				B1B65432246E6AA700E2F09B /* GreenCircle.m */,
+				B1B65438246E6B9400E2F09B /* BridgeShape.h */,
+				B1B65439246E6B9400E2F09B /* BridgeShape.m */,
+				B1B65435246E6B6300E2F09B /* BridgeCircle.h */,
+				B1B65436246E6B6300E2F09B /* BridgeCircle.m */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -283,6 +342,18 @@
 		B169353B243F187C009F5C01 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				B14C2FB224665D380078CD4A /* AdapterViewController.h */,
+				B14C2FB324665D380078CD4A /* AdapterViewController.m */,
+				B14C2FB524665E530078CD4A /* MediaPlayer.h */,
+				B14C2FBD246662090078CD4A /* AudioPlayer.h */,
+				B14C2FBE246662090078CD4A /* AudioPlayer.m */,
+				B14C2FC024667F3A0078CD4A /* MediaAdapter.h */,
+				B14C2FC124667F3A0078CD4A /* MediaAdapter.m */,
+				B14C2FB724665F6B0078CD4A /* VlcPlayer.h */,
+				B14C2FB824665F6B0078CD4A /* VlcPlayer.m */,
+				B14C2FBA24665F7B0078CD4A /* MP4Player.h */,
+				B14C2FBB24665F7B0078CD4A /* MP4Player.m */,
+				B14C2FB624665E690078CD4A /* AdvancedMediaPlayer.h */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -358,6 +429,16 @@
 				B1A5BF8B244DDD4F00BB69DA /* Prototype.h */,
 				B1A5BF8C244DDD9900BB69DA /* PrototypeModel.h */,
 				B1A5BF8D244DDD9900BB69DA /* PrototypeModel.m */,
+				B14C2FA3246650380078CD4A /* ProtoShape.h */,
+				B14C2FA4246650380078CD4A /* ProtoShape.m */,
+				B14C2FA6246650610078CD4A /* ProtoCircle.h */,
+				B14C2FA7246650610078CD4A /* ProtoCircle.m */,
+				B14C2FA92466506F0078CD4A /* ProtoRectangle.h */,
+				B14C2FAA2466506F0078CD4A /* ProtoRectangle.m */,
+				B14C2FAC2466507A0078CD4A /* ProtoSquare.h */,
+				B14C2FAD2466507A0078CD4A /* ProtoSquare.m */,
+				B14C2FAF246650980078CD4A /* ShapeCache.h */,
+				B14C2FB0246650980078CD4A /* ShapeCache.m */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -655,34 +736,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14C2FA5246650380078CD4A /* ProtoShape.m in Sources */,
 				B1A5BF4C244D574200BB69DA /* ARed.m in Sources */,
+				B14C2FB424665D380078CD4A /* AdapterViewController.m in Sources */,
+				B1B6542C246E69AA00E2F09B /* BridgeViewController.m in Sources */,
 				B1693558243F2782009F5C01 /* Square.m in Sources */,
 				B1A5BF7E244DAB8300BB69DA /* Pepsi.m in Sources */,
+				B1B6543A246E6B9400E2F09B /* BridgeShape.m in Sources */,
 				B1A5BF5E244D588D00BB69DA /* ATriangle.m in Sources */,
+				B14C2FC224667F3A0078CD4A /* MediaAdapter.m in Sources */,
+				B1B65437246E6B6300E2F09B /* BridgeCircle.m in Sources */,
 				B1693561243F2885009F5C01 /* ShapeFactory.m in Sources */,
 				B169355B243F2799009F5C01 /* Circle.m in Sources */,
 				B1A5BF40244D563600BB69DA /* AbstractFactoryViewController.m in Sources */,
 				B1A5BF6C244D9DCD00BB69DA /* Wrapper.m in Sources */,
+				B14C2FBF246662090078CD4A /* AudioPlayer.m in Sources */,
+				B14C2FAB2466506F0078CD4A /* ProtoRectangle.m in Sources */,
 				B1A5BF47244D56B000BB69DA /* AShapeFactory.m in Sources */,
+				B14C2FAE2466507A0078CD4A /* ProtoSquare.m in Sources */,
 				B1A5BF44244D569C00BB69DA /* AColorFactory.m in Sources */,
 				B1A5BF6F244D9DE600BB69DA /* Bottles.m in Sources */,
+				B14C2FB1246650980078CD4A /* ShapeCache.m in Sources */,
 				B1693509243F15B9009F5C01 /* ViewController.m in Sources */,
+				B1B65433246E6AA700E2F09B /* GreenCircle.m in Sources */,
 				B1A5BF8A244DDCF700BB69DA /* PrototypeViewController.m in Sources */,
 				B1A5BF78244DAB5400BB69DA /* VerBurger.m in Sources */,
 				B1A5BF55244D57FE00BB69DA /* FactoryProducer.m in Sources */,
 				B1A5BF87244DACDB00BB69DA /* MealBuilder.m in Sources */,
+				B14C2FB924665F6B0078CD4A /* VlcPlayer.m in Sources */,
 				B169355E243F27A8009F5C01 /* Rectangle.m in Sources */,
 				B1A5BF52244D576400BB69DA /* ABlue.m in Sources */,
 				B1A5BF67244D75E100BB69DA /* BuilderViewController.m in Sources */,
 				B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */,
+				B14C2FBC24665F7B0078CD4A /* MP4Player.m in Sources */,
 				B1693514243F15BB009F5C01 /* main.m in Sources */,
 				B1A5BF61244D742700BB69DA /* SingletonViewController.m in Sources */,
 				B1693554243F18DE009F5C01 /* FactoryViewController.m in Sources */,
 				B1A5BF84244DACCB00BB69DA /* Meal.m in Sources */,
 				B1693506243F15B9009F5C01 /* SceneDelegate.m in Sources */,
+				B14C2FA8246650610078CD4A /* ProtoCircle.m in Sources */,
 				B1A5BF5B244D584700BB69DA /* ARect.m in Sources */,
 				B1A5BF7B244DAB6500BB69DA /* ChickenBurger.m in Sources */,
 				B1A5BF64244D743A00BB69DA /* Singleton.m in Sources */,
+				B1B65430246E6A8100E2F09B /* RedCircle.m in Sources */,
 				B1A5BF81244DAB9200BB69DA /* Coke.m in Sources */,
 				B1A5BF75244DAAF300BB69DA /* ColdDrink.m in Sources */,
 				B1A5BF58244D581100BB69DA /* ACircle.m in Sources */,
@@ -858,6 +954,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXLYJRZANP;
 				INFOPLIST_FILE = PatternsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -874,6 +971,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXLYJRZANP;
 				INFOPLIST_FILE = PatternsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

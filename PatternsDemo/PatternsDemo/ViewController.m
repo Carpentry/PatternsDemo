@@ -12,6 +12,8 @@
 #import "SingletonViewController.h"
 #import "BuilderViewController.h"
 #import "PrototypeViewController.h"
+#import "AdapterViewController.h"
+#import "BridgeViewController.h"
 
 @interface ViewController ()
 
@@ -22,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self.navigationController pushViewController:[[PrototypeViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[AdapterViewController alloc] init] animated:YES];
 }
 
 
