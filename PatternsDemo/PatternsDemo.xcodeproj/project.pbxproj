@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B14875D12480E1BD00D9B216 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875D02480E1BD00D9B216 /* FilterViewController.m */; };
+		B14875D42480E1EA00D9B216 /* Fperson.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875D32480E1EA00D9B216 /* Fperson.m */; };
+		B14875D82480E28300D9B216 /* AndCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875D72480E28300D9B216 /* AndCriteria.m */; };
+		B14875DB2480E29F00D9B216 /* OrCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875DA2480E29F00D9B216 /* OrCriteria.m */; };
+		B14875DE2480E2B900D9B216 /* MaleCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875DD2480E2B900D9B216 /* MaleCriteria.m */; };
+		B14875E12480E2CD00D9B216 /* FemaleCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875E02480E2CD00D9B216 /* FemaleCriteria.m */; };
+		B14875E42480F3F700D9B216 /* MarriedCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875E32480F3F700D9B216 /* MarriedCriteria.m */; };
 		B14C2FA5246650380078CD4A /* ProtoShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FA4246650380078CD4A /* ProtoShape.m */; };
 		B14C2FA8246650610078CD4A /* ProtoCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FA7246650610078CD4A /* ProtoCircle.m */; };
 		B14C2FAB2466506F0078CD4A /* ProtoRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FAA2466506F0078CD4A /* ProtoRectangle.m */; };
@@ -81,6 +88,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B14875CF2480E1BD00D9B216 /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		B14875D02480E1BD00D9B216 /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		B14875D22480E1EA00D9B216 /* Fperson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fperson.h; sourceTree = "<group>"; };
+		B14875D32480E1EA00D9B216 /* Fperson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fperson.m; sourceTree = "<group>"; };
+		B14875D52480E22F00D9B216 /* FCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCriteria.h; sourceTree = "<group>"; };
+		B14875D62480E28300D9B216 /* AndCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndCriteria.h; sourceTree = "<group>"; };
+		B14875D72480E28300D9B216 /* AndCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndCriteria.m; sourceTree = "<group>"; };
+		B14875D92480E29F00D9B216 /* OrCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrCriteria.h; sourceTree = "<group>"; };
+		B14875DA2480E29F00D9B216 /* OrCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrCriteria.m; sourceTree = "<group>"; };
+		B14875DC2480E2B900D9B216 /* MaleCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaleCriteria.h; sourceTree = "<group>"; };
+		B14875DD2480E2B900D9B216 /* MaleCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaleCriteria.m; sourceTree = "<group>"; };
+		B14875DF2480E2CD00D9B216 /* FemaleCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FemaleCriteria.h; sourceTree = "<group>"; };
+		B14875E02480E2CD00D9B216 /* FemaleCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FemaleCriteria.m; sourceTree = "<group>"; };
+		B14875E22480F3F700D9B216 /* MarriedCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarriedCriteria.h; sourceTree = "<group>"; };
+		B14875E32480F3F700D9B216 /* MarriedCriteria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarriedCriteria.m; sourceTree = "<group>"; };
 		B14C2FA3246650380078CD4A /* ProtoShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoShape.h; sourceTree = "<group>"; };
 		B14C2FA4246650380078CD4A /* ProtoShape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoShape.m; sourceTree = "<group>"; };
 		B14C2FA6246650610078CD4A /* ProtoCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoCircle.h; sourceTree = "<group>"; };
@@ -368,6 +390,21 @@
 		B169353D243F187C009F5C01 /* Filter */ = {
 			isa = PBXGroup;
 			children = (
+				B14875CF2480E1BD00D9B216 /* FilterViewController.h */,
+				B14875D02480E1BD00D9B216 /* FilterViewController.m */,
+				B14875D22480E1EA00D9B216 /* Fperson.h */,
+				B14875D32480E1EA00D9B216 /* Fperson.m */,
+				B14875D52480E22F00D9B216 /* FCriteria.h */,
+				B14875D62480E28300D9B216 /* AndCriteria.h */,
+				B14875D72480E28300D9B216 /* AndCriteria.m */,
+				B14875D92480E29F00D9B216 /* OrCriteria.h */,
+				B14875DA2480E29F00D9B216 /* OrCriteria.m */,
+				B14875DC2480E2B900D9B216 /* MaleCriteria.h */,
+				B14875DD2480E2B900D9B216 /* MaleCriteria.m */,
+				B14875DF2480E2CD00D9B216 /* FemaleCriteria.h */,
+				B14875E02480E2CD00D9B216 /* FemaleCriteria.m */,
+				B14875E22480F3F700D9B216 /* MarriedCriteria.h */,
+				B14875E32480F3F700D9B216 /* MarriedCriteria.m */,
 			);
 			path = Filter;
 			sourceTree = "<group>";
@@ -741,11 +778,13 @@
 				B14C2FB424665D380078CD4A /* AdapterViewController.m in Sources */,
 				B1B6542C246E69AA00E2F09B /* BridgeViewController.m in Sources */,
 				B1693558243F2782009F5C01 /* Square.m in Sources */,
+				B14875DE2480E2B900D9B216 /* MaleCriteria.m in Sources */,
 				B1A5BF7E244DAB8300BB69DA /* Pepsi.m in Sources */,
 				B1B6543A246E6B9400E2F09B /* BridgeShape.m in Sources */,
 				B1A5BF5E244D588D00BB69DA /* ATriangle.m in Sources */,
 				B14C2FC224667F3A0078CD4A /* MediaAdapter.m in Sources */,
 				B1B65437246E6B6300E2F09B /* BridgeCircle.m in Sources */,
+				B14875E12480E2CD00D9B216 /* FemaleCriteria.m in Sources */,
 				B1693561243F2885009F5C01 /* ShapeFactory.m in Sources */,
 				B169355B243F2799009F5C01 /* Circle.m in Sources */,
 				B1A5BF40244D563600BB69DA /* AbstractFactoryViewController.m in Sources */,
@@ -766,6 +805,7 @@
 				B14C2FB924665F6B0078CD4A /* VlcPlayer.m in Sources */,
 				B169355E243F27A8009F5C01 /* Rectangle.m in Sources */,
 				B1A5BF52244D576400BB69DA /* ABlue.m in Sources */,
+				B14875DB2480E29F00D9B216 /* OrCriteria.m in Sources */,
 				B1A5BF67244D75E100BB69DA /* BuilderViewController.m in Sources */,
 				B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */,
 				B14C2FBC24665F7B0078CD4A /* MP4Player.m in Sources */,
@@ -776,8 +816,12 @@
 				B1693506243F15B9009F5C01 /* SceneDelegate.m in Sources */,
 				B14C2FA8246650610078CD4A /* ProtoCircle.m in Sources */,
 				B1A5BF5B244D584700BB69DA /* ARect.m in Sources */,
+				B14875E42480F3F700D9B216 /* MarriedCriteria.m in Sources */,
 				B1A5BF7B244DAB6500BB69DA /* ChickenBurger.m in Sources */,
 				B1A5BF64244D743A00BB69DA /* Singleton.m in Sources */,
+				B14875D82480E28300D9B216 /* AndCriteria.m in Sources */,
+				B14875D12480E1BD00D9B216 /* FilterViewController.m in Sources */,
+				B14875D42480E1EA00D9B216 /* Fperson.m in Sources */,
 				B1B65430246E6A8100E2F09B /* RedCircle.m in Sources */,
 				B1A5BF81244DAB9200BB69DA /* Coke.m in Sources */,
 				B1A5BF75244DAAF300BB69DA /* ColdDrink.m in Sources */,

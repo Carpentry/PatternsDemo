@@ -14,6 +14,7 @@
 #import "PrototypeViewController.h"
 #import "AdapterViewController.h"
 #import "BridgeViewController.h"
+#import "FilterViewController.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self.navigationController pushViewController:[[AdapterViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[FilterViewController alloc] init] animated:YES];
 }
 
 

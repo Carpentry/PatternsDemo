@@ -25,7 +25,7 @@
     [redCircle drawShapeRedius:40 x:50 y:60];
     [greenCircle drawShapeRedius:60 x:50 y:40];
     
-    // Do any additional setup after loading the view.
+    NSLog(@"viewDidLoad: %@",self);
 }
 
 /*
