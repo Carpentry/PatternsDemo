@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13C8F7A248624EC00716B7D /* CompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F79248624EC00716B7D /* CompositeViewController.m */; };
+		B13C8F7D2486250800716B7D /* DecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F7C2486250800716B7D /* DecoratorViewController.m */; };
+		B13C8F80248625A100716B7D /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F7F248625A100716B7D /* Employee.m */; };
+		B13C8F862487554400716B7D /* Dcircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F852487554400716B7D /* Dcircle.m */; };
+		B13C8F892487555900716B7D /* Drectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F882487555900716B7D /* Drectangle.m */; };
+		B13C8F8C248755FF00716B7D /* ColorDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F8B248755FF00716B7D /* ColorDecorator.m */; };
+		B13C8F8F2487586C00716B7D /* RedColorDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F8E2487586C00716B7D /* RedColorDecorator.m */; };
+		B13C8F92248773F900716B7D /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F91248773F900716B7D /* FacadeViewController.m */; };
+		B13C8F952487742300716B7D /* ShapeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F942487742300716B7D /* ShapeMaker.m */; };
+		B13C8F9824877B5900716B7D /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F9724877B5900716B7D /* ProxyViewController.m */; };
+		B13C8F9B24877B7700716B7D /* RealImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F9A24877B7700716B7D /* RealImage.m */; };
+		B13C8F9E24877B8300716B7D /* ProxyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8F9D24877B8300716B7D /* ProxyImage.m */; };
+		B13C8FAB2487D8C900716B7D /* FlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8FAA2487D8C900716B7D /* FlyweightViewController.m */; };
+		B13C8FAE2487D90700716B7D /* FCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8FAD2487D90700716B7D /* FCircle.m */; };
+		B13C8FB12487D99D00716B7D /* FlyShapeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B13C8FB02487D99D00716B7D /* FlyShapeFactory.m */; };
 		B14875D12480E1BD00D9B216 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875D02480E1BD00D9B216 /* FilterViewController.m */; };
 		B14875D42480E1EA00D9B216 /* Fperson.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875D32480E1EA00D9B216 /* Fperson.m */; };
 		B14875D82480E28300D9B216 /* AndCriteria.m in Sources */ = {isa = PBXBuildFile; fileRef = B14875D72480E28300D9B216 /* AndCriteria.m */; };
@@ -88,6 +103,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B13C8F78248624EC00716B7D /* CompositeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositeViewController.h; sourceTree = "<group>"; };
+		B13C8F79248624EC00716B7D /* CompositeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositeViewController.m; sourceTree = "<group>"; };
+		B13C8F7B2486250800716B7D /* DecoratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorViewController.h; sourceTree = "<group>"; };
+		B13C8F7C2486250800716B7D /* DecoratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorViewController.m; sourceTree = "<group>"; };
+		B13C8F7E248625A100716B7D /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		B13C8F7F248625A100716B7D /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		B13C8F832487551C00716B7D /* Dshape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dshape.h; sourceTree = "<group>"; };
+		B13C8F842487554400716B7D /* Dcircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dcircle.h; sourceTree = "<group>"; };
+		B13C8F852487554400716B7D /* Dcircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dcircle.m; sourceTree = "<group>"; };
+		B13C8F872487555900716B7D /* Drectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drectangle.h; sourceTree = "<group>"; };
+		B13C8F882487555900716B7D /* Drectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drectangle.m; sourceTree = "<group>"; };
+		B13C8F8A248755FF00716B7D /* ColorDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorDecorator.h; sourceTree = "<group>"; };
+		B13C8F8B248755FF00716B7D /* ColorDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorDecorator.m; sourceTree = "<group>"; };
+		B13C8F8D2487586C00716B7D /* RedColorDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedColorDecorator.h; sourceTree = "<group>"; };
+		B13C8F8E2487586C00716B7D /* RedColorDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedColorDecorator.m; sourceTree = "<group>"; };
+		B13C8F90248773F900716B7D /* FacadeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
+		B13C8F91248773F900716B7D /* FacadeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
+		B13C8F932487742300716B7D /* ShapeMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeMaker.h; sourceTree = "<group>"; };
+		B13C8F942487742300716B7D /* ShapeMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeMaker.m; sourceTree = "<group>"; };
+		B13C8F9624877B5900716B7D /* ProxyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
+		B13C8F9724877B5900716B7D /* ProxyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		B13C8F9924877B7700716B7D /* RealImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealImage.h; sourceTree = "<group>"; };
+		B13C8F9A24877B7700716B7D /* RealImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealImage.m; sourceTree = "<group>"; };
+		B13C8F9C24877B8300716B7D /* ProxyImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyImage.h; sourceTree = "<group>"; };
+		B13C8F9D24877B8300716B7D /* ProxyImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyImage.m; sourceTree = "<group>"; };
+		B13C8F9F24877BA600716B7D /* ImageProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProtocol.h; sourceTree = "<group>"; };
+		B13C8FA92487D8C900716B7D /* FlyweightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyweightViewController.h; sourceTree = "<group>"; };
+		B13C8FAA2487D8C900716B7D /* FlyweightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyweightViewController.m; sourceTree = "<group>"; };
+		B13C8FAC2487D90700716B7D /* FCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCircle.h; sourceTree = "<group>"; };
+		B13C8FAD2487D90700716B7D /* FCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCircle.m; sourceTree = "<group>"; };
+		B13C8FAF2487D99D00716B7D /* FlyShapeFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyShapeFactory.h; sourceTree = "<group>"; };
+		B13C8FB02487D99D00716B7D /* FlyShapeFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyShapeFactory.m; sourceTree = "<group>"; };
 		B14875CF2480E1BD00D9B216 /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
 		B14875D02480E1BD00D9B216 /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
 		B14875D22480E1EA00D9B216 /* Fperson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fperson.h; sourceTree = "<group>"; };
@@ -325,6 +372,13 @@
 		B1693537243F187C009F5C01 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				B13C8F9624877B5900716B7D /* ProxyViewController.h */,
+				B13C8F9724877B5900716B7D /* ProxyViewController.m */,
+				B13C8F9F24877BA600716B7D /* ImageProtocol.h */,
+				B13C8F9924877B7700716B7D /* RealImage.h */,
+				B13C8F9A24877B7700716B7D /* RealImage.m */,
+				B13C8F9C24877B8300716B7D /* ProxyImage.h */,
+				B13C8F9D24877B8300716B7D /* ProxyImage.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -332,6 +386,17 @@
 		B1693538243F187C009F5C01 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				B13C8F7B2486250800716B7D /* DecoratorViewController.h */,
+				B13C8F7C2486250800716B7D /* DecoratorViewController.m */,
+				B13C8F832487551C00716B7D /* Dshape.h */,
+				B13C8F842487554400716B7D /* Dcircle.h */,
+				B13C8F852487554400716B7D /* Dcircle.m */,
+				B13C8F872487555900716B7D /* Drectangle.h */,
+				B13C8F882487555900716B7D /* Drectangle.m */,
+				B13C8F8A248755FF00716B7D /* ColorDecorator.h */,
+				B13C8F8B248755FF00716B7D /* ColorDecorator.m */,
+				B13C8F8D2487586C00716B7D /* RedColorDecorator.h */,
+				B13C8F8E2487586C00716B7D /* RedColorDecorator.m */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -357,6 +422,10 @@
 		B169353A243F187C009F5C01 /* Facade */ = {
 			isa = PBXGroup;
 			children = (
+				B13C8F90248773F900716B7D /* FacadeViewController.h */,
+				B13C8F91248773F900716B7D /* FacadeViewController.m */,
+				B13C8F932487742300716B7D /* ShapeMaker.h */,
+				B13C8F942487742300716B7D /* ShapeMaker.m */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -383,6 +452,10 @@
 		B169353C243F187C009F5C01 /* Composite */ = {
 			isa = PBXGroup;
 			children = (
+				B13C8F78248624EC00716B7D /* CompositeViewController.h */,
+				B13C8F79248624EC00716B7D /* CompositeViewController.m */,
+				B13C8F7E248625A100716B7D /* Employee.h */,
+				B13C8F7F248625A100716B7D /* Employee.m */,
 			);
 			path = Composite;
 			sourceTree = "<group>";
@@ -412,6 +485,12 @@
 		B169353E243F187C009F5C01 /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
+				B13C8FA92487D8C900716B7D /* FlyweightViewController.h */,
+				B13C8FAA2487D8C900716B7D /* FlyweightViewController.m */,
+				B13C8FAC2487D90700716B7D /* FCircle.h */,
+				B13C8FAD2487D90700716B7D /* FCircle.m */,
+				B13C8FAF2487D99D00716B7D /* FlyShapeFactory.h */,
+				B13C8FB02487D99D00716B7D /* FlyShapeFactory.m */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -777,6 +856,8 @@
 				B1A5BF4C244D574200BB69DA /* ARed.m in Sources */,
 				B14C2FB424665D380078CD4A /* AdapterViewController.m in Sources */,
 				B1B6542C246E69AA00E2F09B /* BridgeViewController.m in Sources */,
+				B13C8FB12487D99D00716B7D /* FlyShapeFactory.m in Sources */,
+				B13C8F7D2486250800716B7D /* DecoratorViewController.m in Sources */,
 				B1693558243F2782009F5C01 /* Square.m in Sources */,
 				B14875DE2480E2B900D9B216 /* MaleCriteria.m in Sources */,
 				B1A5BF7E244DAB8300BB69DA /* Pepsi.m in Sources */,
@@ -787,8 +868,10 @@
 				B14875E12480E2CD00D9B216 /* FemaleCriteria.m in Sources */,
 				B1693561243F2885009F5C01 /* ShapeFactory.m in Sources */,
 				B169355B243F2799009F5C01 /* Circle.m in Sources */,
+				B13C8F8C248755FF00716B7D /* ColorDecorator.m in Sources */,
 				B1A5BF40244D563600BB69DA /* AbstractFactoryViewController.m in Sources */,
 				B1A5BF6C244D9DCD00BB69DA /* Wrapper.m in Sources */,
+				B13C8F9B24877B7700716B7D /* RealImage.m in Sources */,
 				B14C2FBF246662090078CD4A /* AudioPlayer.m in Sources */,
 				B14C2FAB2466506F0078CD4A /* ProtoRectangle.m in Sources */,
 				B1A5BF47244D56B000BB69DA /* AShapeFactory.m in Sources */,
@@ -798,6 +881,7 @@
 				B14C2FB1246650980078CD4A /* ShapeCache.m in Sources */,
 				B1693509243F15B9009F5C01 /* ViewController.m in Sources */,
 				B1B65433246E6AA700E2F09B /* GreenCircle.m in Sources */,
+				B13C8F862487554400716B7D /* Dcircle.m in Sources */,
 				B1A5BF8A244DDCF700BB69DA /* PrototypeViewController.m in Sources */,
 				B1A5BF78244DAB5400BB69DA /* VerBurger.m in Sources */,
 				B1A5BF55244D57FE00BB69DA /* FactoryProducer.m in Sources */,
@@ -805,12 +889,18 @@
 				B14C2FB924665F6B0078CD4A /* VlcPlayer.m in Sources */,
 				B169355E243F27A8009F5C01 /* Rectangle.m in Sources */,
 				B1A5BF52244D576400BB69DA /* ABlue.m in Sources */,
+				B13C8F80248625A100716B7D /* Employee.m in Sources */,
+				B13C8F92248773F900716B7D /* FacadeViewController.m in Sources */,
+				B13C8F9824877B5900716B7D /* ProxyViewController.m in Sources */,
 				B14875DB2480E29F00D9B216 /* OrCriteria.m in Sources */,
 				B1A5BF67244D75E100BB69DA /* BuilderViewController.m in Sources */,
 				B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */,
 				B14C2FBC24665F7B0078CD4A /* MP4Player.m in Sources */,
 				B1693514243F15BB009F5C01 /* main.m in Sources */,
+				B13C8F9E24877B8300716B7D /* ProxyImage.m in Sources */,
+				B13C8F8F2487586C00716B7D /* RedColorDecorator.m in Sources */,
 				B1A5BF61244D742700BB69DA /* SingletonViewController.m in Sources */,
+				B13C8F7A248624EC00716B7D /* CompositeViewController.m in Sources */,
 				B1693554243F18DE009F5C01 /* FactoryViewController.m in Sources */,
 				B1A5BF84244DACCB00BB69DA /* Meal.m in Sources */,
 				B1693506243F15B9009F5C01 /* SceneDelegate.m in Sources */,
@@ -818,7 +908,10 @@
 				B1A5BF5B244D584700BB69DA /* ARect.m in Sources */,
 				B14875E42480F3F700D9B216 /* MarriedCriteria.m in Sources */,
 				B1A5BF7B244DAB6500BB69DA /* ChickenBurger.m in Sources */,
+				B13C8FAB2487D8C900716B7D /* FlyweightViewController.m in Sources */,
+				B13C8FAE2487D90700716B7D /* FCircle.m in Sources */,
 				B1A5BF64244D743A00BB69DA /* Singleton.m in Sources */,
+				B13C8F952487742300716B7D /* ShapeMaker.m in Sources */,
 				B14875D82480E28300D9B216 /* AndCriteria.m in Sources */,
 				B14875D12480E1BD00D9B216 /* FilterViewController.m in Sources */,
 				B14875D42480E1EA00D9B216 /* Fperson.m in Sources */,
@@ -829,6 +922,7 @@
 				B1A5BF4F244D575600BB69DA /* AYellow.m in Sources */,
 				B1A5BF8E244DDD9900BB69DA /* PrototypeModel.m in Sources */,
 				B1A5BF72244DAA5D00BB69DA /* Burger.m in Sources */,
+				B13C8F892487555900716B7D /* Drectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

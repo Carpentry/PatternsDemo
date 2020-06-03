@@ -15,6 +15,11 @@
 #import "AdapterViewController.h"
 #import "BridgeViewController.h"
 #import "FilterViewController.h"
+#import "CompositeViewController.h"
+#import "DecoratorViewController.h"
+#import "FacadeViewController.h"
+#import "ProxyViewController.h"
+#import "FlyweightViewController.h"
 
 @interface ViewController ()
 
@@ -25,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self.navigationController pushViewController:[[FilterViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[FlyweightViewController alloc] init] animated:YES];
 }
 
 
