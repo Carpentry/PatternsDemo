@@ -39,6 +39,32 @@
 		B14C2FBC24665F7B0078CD4A /* MP4Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FBB24665F7B0078CD4A /* MP4Player.m */; };
 		B14C2FBF246662090078CD4A /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FBE246662090078CD4A /* AudioPlayer.m */; };
 		B14C2FC224667F3A0078CD4A /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B14C2FC124667F3A0078CD4A /* MediaAdapter.m */; };
+		B15267962489F01800FA87F5 /* ChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267952489F01800FA87F5 /* ChainViewController.m */; };
+		B15267992489F45200FA87F5 /* AbstractLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267982489F45200FA87F5 /* AbstractLogger.m */; };
+		B152679C2489F48400FA87F5 /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B152679B2489F48400FA87F5 /* FileLogger.m */; };
+		B152679F2489F49200FA87F5 /* StandardLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B152679E2489F49200FA87F5 /* StandardLogger.m */; };
+		B15267A22489F50D00FA87F5 /* ErrorLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267A12489F50D00FA87F5 /* ErrorLogger.m */; };
+		B15267A5248DE64B00FA87F5 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267A4248DE64B00FA87F5 /* CommandViewController.m */; };
+		B15267A9248DE6AB00FA87F5 /* CSellOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267A8248DE6AB00FA87F5 /* CSellOrder.m */; };
+		B15267AC248DE6B700FA87F5 /* CBuyOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267AB248DE6B700FA87F5 /* CBuyOrder.m */; };
+		B15267AF248DE73000FA87F5 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267AE248DE73000FA87F5 /* Stock.m */; };
+		B15267B2248DE81700FA87F5 /* Broker.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267B1248DE81700FA87F5 /* Broker.m */; };
+		B15267B8248DEF9B00FA87F5 /* InterpreterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267B7248DEF9B00FA87F5 /* InterpreterViewController.m */; };
+		B15267BB248E0D4800FA87F5 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267BA248E0D4800FA87F5 /* StateViewController.m */; };
+		B15267BE248E0D7600FA87F5 /* Scontext.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267BD248E0D7600FA87F5 /* Scontext.m */; };
+		B15267C1248E0D8300FA87F5 /* StopState.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267C0248E0D8300FA87F5 /* StopState.m */; };
+		B15267C4248E0D8E00FA87F5 /* StartState.m in Sources */ = {isa = PBXBuildFile; fileRef = B15267C3248E0D8E00FA87F5 /* StartState.m */; };
+		B15526222494ACC100B9748A /* TemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526212494ACC100B9748A /* TemplateViewController.m */; };
+		B15526252494ACCC00B9748A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526242494ACCC00B9748A /* Game.m */; };
+		B15526282494AD0B00B9748A /* Cricket.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526272494AD0B00B9748A /* Cricket.m */; };
+		B155262B2494AD1300B9748A /* Football.m in Sources */ = {isa = PBXBuildFile; fileRef = B155262A2494AD1300B9748A /* Football.m */; };
+		B155262E2494B1F800B9748A /* MementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B155262D2494B1F800B9748A /* MementoViewController.m */; };
+		B15526312494B21100B9748A /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526302494B21100B9748A /* Memento.m */; };
+		B15526342494B21F00B9748A /* CareTaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526332494B21F00B9748A /* CareTaker.m */; };
+		B15526372494B23000B9748A /* Originer.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526362494B23000B9748A /* Originer.m */; };
+		B155263A2494BA9900B9748A /* ChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = B15526392494BA9900B9748A /* ChatRoom.m */; };
+		B155263D2494BAA300B9748A /* ChatUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B155263C2494BAA300B9748A /* ChatUser.m */; };
+		B15526402494BAB400B9748A /* MediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B155263F2494BAB400B9748A /* MediatorViewController.m */; };
 		B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693502243F15B9009F5C01 /* AppDelegate.m */; };
 		B1693506243F15B9009F5C01 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693505243F15B9009F5C01 /* SceneDelegate.m */; };
 		B1693509243F15B9009F5C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1693508243F15B9009F5C01 /* ViewController.m */; };
@@ -172,6 +198,60 @@
 		B14C2FBE246662090078CD4A /* AudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		B14C2FC024667F3A0078CD4A /* MediaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
 		B14C2FC124667F3A0078CD4A /* MediaAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaAdapter.m; sourceTree = "<group>"; };
+		B15267942489F01800FA87F5 /* ChainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainViewController.h; sourceTree = "<group>"; };
+		B15267952489F01800FA87F5 /* ChainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainViewController.m; sourceTree = "<group>"; };
+		B15267972489F45200FA87F5 /* AbstractLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractLogger.h; sourceTree = "<group>"; };
+		B15267982489F45200FA87F5 /* AbstractLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractLogger.m; sourceTree = "<group>"; };
+		B152679A2489F48400FA87F5 /* FileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
+		B152679B2489F48400FA87F5 /* FileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
+		B152679D2489F49200FA87F5 /* StandardLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardLogger.h; sourceTree = "<group>"; };
+		B152679E2489F49200FA87F5 /* StandardLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardLogger.m; sourceTree = "<group>"; };
+		B15267A02489F50D00FA87F5 /* ErrorLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorLogger.h; sourceTree = "<group>"; };
+		B15267A12489F50D00FA87F5 /* ErrorLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorLogger.m; sourceTree = "<group>"; };
+		B15267A3248DE64B00FA87F5 /* CommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		B15267A4248DE64B00FA87F5 /* CommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		B15267A6248DE66600FA87F5 /* Corders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Corders.h; sourceTree = "<group>"; };
+		B15267A7248DE6AB00FA87F5 /* CSellOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSellOrder.h; sourceTree = "<group>"; };
+		B15267A8248DE6AB00FA87F5 /* CSellOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSellOrder.m; sourceTree = "<group>"; };
+		B15267AA248DE6B700FA87F5 /* CBuyOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBuyOrder.h; sourceTree = "<group>"; };
+		B15267AB248DE6B700FA87F5 /* CBuyOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBuyOrder.m; sourceTree = "<group>"; };
+		B15267AD248DE73000FA87F5 /* Stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
+		B15267AE248DE73000FA87F5 /* Stock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
+		B15267B0248DE81700FA87F5 /* Broker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Broker.h; sourceTree = "<group>"; };
+		B15267B1248DE81700FA87F5 /* Broker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Broker.m; sourceTree = "<group>"; };
+		B15267B6248DEF9B00FA87F5 /* InterpreterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterpreterViewController.h; sourceTree = "<group>"; };
+		B15267B7248DEF9B00FA87F5 /* InterpreterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterpreterViewController.m; sourceTree = "<group>"; };
+		B15267B9248E0D4800FA87F5 /* StateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		B15267BA248E0D4800FA87F5 /* StateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		B15267BC248E0D7600FA87F5 /* Scontext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scontext.h; sourceTree = "<group>"; };
+		B15267BD248E0D7600FA87F5 /* Scontext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scontext.m; sourceTree = "<group>"; };
+		B15267BF248E0D8300FA87F5 /* StopState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StopState.h; sourceTree = "<group>"; };
+		B15267C0248E0D8300FA87F5 /* StopState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopState.m; sourceTree = "<group>"; };
+		B15267C2248E0D8E00FA87F5 /* StartState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartState.h; sourceTree = "<group>"; };
+		B15267C3248E0D8E00FA87F5 /* StartState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartState.m; sourceTree = "<group>"; };
+		B15267C5248E0DA700FA87F5 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		B15526202494ACC100B9748A /* TemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateViewController.h; sourceTree = "<group>"; };
+		B15526212494ACC100B9748A /* TemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateViewController.m; sourceTree = "<group>"; };
+		B15526232494ACCC00B9748A /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		B15526242494ACCC00B9748A /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		B15526262494AD0B00B9748A /* Cricket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cricket.h; sourceTree = "<group>"; };
+		B15526272494AD0B00B9748A /* Cricket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cricket.m; sourceTree = "<group>"; };
+		B15526292494AD1300B9748A /* Football.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Football.h; sourceTree = "<group>"; };
+		B155262A2494AD1300B9748A /* Football.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Football.m; sourceTree = "<group>"; };
+		B155262C2494B1F800B9748A /* MementoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoViewController.h; sourceTree = "<group>"; };
+		B155262D2494B1F800B9748A /* MementoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoViewController.m; sourceTree = "<group>"; };
+		B155262F2494B21100B9748A /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		B15526302494B21100B9748A /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		B15526322494B21F00B9748A /* CareTaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CareTaker.h; sourceTree = "<group>"; };
+		B15526332494B21F00B9748A /* CareTaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CareTaker.m; sourceTree = "<group>"; };
+		B15526352494B23000B9748A /* Originer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originer.h; sourceTree = "<group>"; };
+		B15526362494B23000B9748A /* Originer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originer.m; sourceTree = "<group>"; };
+		B15526382494BA9900B9748A /* ChatRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatRoom.h; sourceTree = "<group>"; };
+		B15526392494BA9900B9748A /* ChatRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatRoom.m; sourceTree = "<group>"; };
+		B155263B2494BAA300B9748A /* ChatUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatUser.h; sourceTree = "<group>"; };
+		B155263C2494BAA300B9748A /* ChatUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatUser.m; sourceTree = "<group>"; };
+		B155263E2494BAB400B9748A /* MediatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorViewController.h; sourceTree = "<group>"; };
+		B155263F2494BAB400B9748A /* MediatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorViewController.m; sourceTree = "<group>"; };
 		B16934FE243F15B9009F5C01 /* PatternsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatternsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1693501243F15B9009F5C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1693502243F15B9009F5C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -641,6 +721,8 @@
 		B1693546243F187C009F5C01 /* Interpreter */ = {
 			isa = PBXGroup;
 			children = (
+				B15267B6248DEF9B00FA87F5 /* InterpreterViewController.h */,
+				B15267B7248DEF9B00FA87F5 /* InterpreterViewController.m */,
 			);
 			path = Interpreter;
 			sourceTree = "<group>";
@@ -655,6 +737,14 @@
 		B1693548243F187C009F5C01 /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				B15526202494ACC100B9748A /* TemplateViewController.h */,
+				B15526212494ACC100B9748A /* TemplateViewController.m */,
+				B15526232494ACCC00B9748A /* Game.h */,
+				B15526242494ACCC00B9748A /* Game.m */,
+				B15526262494AD0B00B9748A /* Cricket.h */,
+				B15526272494AD0B00B9748A /* Cricket.m */,
+				B15526292494AD1300B9748A /* Football.h */,
+				B155262A2494AD1300B9748A /* Football.m */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -669,6 +759,14 @@
 		B169354A243F187C009F5C01 /* memento */ = {
 			isa = PBXGroup;
 			children = (
+				B155262C2494B1F800B9748A /* MementoViewController.h */,
+				B155262D2494B1F800B9748A /* MementoViewController.m */,
+				B155262F2494B21100B9748A /* Memento.h */,
+				B15526302494B21100B9748A /* Memento.m */,
+				B15526322494B21F00B9748A /* CareTaker.h */,
+				B15526332494B21F00B9748A /* CareTaker.m */,
+				B15526352494B23000B9748A /* Originer.h */,
+				B15526362494B23000B9748A /* Originer.m */,
 			);
 			path = memento;
 			sourceTree = "<group>";
@@ -676,6 +774,15 @@
 		B169354B243F187C009F5C01 /* State */ = {
 			isa = PBXGroup;
 			children = (
+				B15267B9248E0D4800FA87F5 /* StateViewController.h */,
+				B15267BA248E0D4800FA87F5 /* StateViewController.m */,
+				B15267BC248E0D7600FA87F5 /* Scontext.h */,
+				B15267BD248E0D7600FA87F5 /* Scontext.m */,
+				B15267BF248E0D8300FA87F5 /* StopState.h */,
+				B15267C0248E0D8300FA87F5 /* StopState.m */,
+				B15267C2248E0D8E00FA87F5 /* StartState.h */,
+				B15267C3248E0D8E00FA87F5 /* StartState.m */,
+				B15267C5248E0DA700FA87F5 /* State.h */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -697,6 +804,16 @@
 		B169354E243F187C009F5C01 /* ChainOfResponsibility */ = {
 			isa = PBXGroup;
 			children = (
+				B15267942489F01800FA87F5 /* ChainViewController.h */,
+				B15267952489F01800FA87F5 /* ChainViewController.m */,
+				B15267972489F45200FA87F5 /* AbstractLogger.h */,
+				B15267982489F45200FA87F5 /* AbstractLogger.m */,
+				B152679A2489F48400FA87F5 /* FileLogger.h */,
+				B152679B2489F48400FA87F5 /* FileLogger.m */,
+				B152679D2489F49200FA87F5 /* StandardLogger.h */,
+				B152679E2489F49200FA87F5 /* StandardLogger.m */,
+				B15267A02489F50D00FA87F5 /* ErrorLogger.h */,
+				B15267A12489F50D00FA87F5 /* ErrorLogger.m */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -704,6 +821,17 @@
 		B169354F243F187C009F5C01 /* Command */ = {
 			isa = PBXGroup;
 			children = (
+				B15267A3248DE64B00FA87F5 /* CommandViewController.h */,
+				B15267A4248DE64B00FA87F5 /* CommandViewController.m */,
+				B15267A6248DE66600FA87F5 /* Corders.h */,
+				B15267A7248DE6AB00FA87F5 /* CSellOrder.h */,
+				B15267A8248DE6AB00FA87F5 /* CSellOrder.m */,
+				B15267AA248DE6B700FA87F5 /* CBuyOrder.h */,
+				B15267AB248DE6B700FA87F5 /* CBuyOrder.m */,
+				B15267AD248DE73000FA87F5 /* Stock.h */,
+				B15267AE248DE73000FA87F5 /* Stock.m */,
+				B15267B0248DE81700FA87F5 /* Broker.h */,
+				B15267B1248DE81700FA87F5 /* Broker.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -711,6 +839,12 @@
 		B1693550243F187C009F5C01 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				B15526382494BA9900B9748A /* ChatRoom.h */,
+				B15526392494BA9900B9748A /* ChatRoom.m */,
+				B155263B2494BAA300B9748A /* ChatUser.h */,
+				B155263C2494BAA300B9748A /* ChatUser.m */,
+				B155263E2494BAB400B9748A /* MediatorViewController.h */,
+				B155263F2494BAB400B9748A /* MediatorViewController.m */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -852,15 +986,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15267A9248DE6AB00FA87F5 /* CSellOrder.m in Sources */,
 				B14C2FA5246650380078CD4A /* ProtoShape.m in Sources */,
+				B15267C4248E0D8E00FA87F5 /* StartState.m in Sources */,
+				B15526402494BAB400B9748A /* MediatorViewController.m in Sources */,
 				B1A5BF4C244D574200BB69DA /* ARed.m in Sources */,
+				B15267A22489F50D00FA87F5 /* ErrorLogger.m in Sources */,
 				B14C2FB424665D380078CD4A /* AdapterViewController.m in Sources */,
 				B1B6542C246E69AA00E2F09B /* BridgeViewController.m in Sources */,
 				B13C8FB12487D99D00716B7D /* FlyShapeFactory.m in Sources */,
 				B13C8F7D2486250800716B7D /* DecoratorViewController.m in Sources */,
+				B15526312494B21100B9748A /* Memento.m in Sources */,
 				B1693558243F2782009F5C01 /* Square.m in Sources */,
 				B14875DE2480E2B900D9B216 /* MaleCriteria.m in Sources */,
 				B1A5BF7E244DAB8300BB69DA /* Pepsi.m in Sources */,
+				B155262B2494AD1300B9748A /* Football.m in Sources */,
 				B1B6543A246E6B9400E2F09B /* BridgeShape.m in Sources */,
 				B1A5BF5E244D588D00BB69DA /* ATriangle.m in Sources */,
 				B14C2FC224667F3A0078CD4A /* MediaAdapter.m in Sources */,
@@ -869,37 +1009,51 @@
 				B1693561243F2885009F5C01 /* ShapeFactory.m in Sources */,
 				B169355B243F2799009F5C01 /* Circle.m in Sources */,
 				B13C8F8C248755FF00716B7D /* ColorDecorator.m in Sources */,
+				B15267A5248DE64B00FA87F5 /* CommandViewController.m in Sources */,
 				B1A5BF40244D563600BB69DA /* AbstractFactoryViewController.m in Sources */,
 				B1A5BF6C244D9DCD00BB69DA /* Wrapper.m in Sources */,
 				B13C8F9B24877B7700716B7D /* RealImage.m in Sources */,
 				B14C2FBF246662090078CD4A /* AudioPlayer.m in Sources */,
+				B152679C2489F48400FA87F5 /* FileLogger.m in Sources */,
 				B14C2FAB2466506F0078CD4A /* ProtoRectangle.m in Sources */,
 				B1A5BF47244D56B000BB69DA /* AShapeFactory.m in Sources */,
+				B15526282494AD0B00B9748A /* Cricket.m in Sources */,
 				B14C2FAE2466507A0078CD4A /* ProtoSquare.m in Sources */,
 				B1A5BF44244D569C00BB69DA /* AColorFactory.m in Sources */,
+				B155262E2494B1F800B9748A /* MementoViewController.m in Sources */,
 				B1A5BF6F244D9DE600BB69DA /* Bottles.m in Sources */,
 				B14C2FB1246650980078CD4A /* ShapeCache.m in Sources */,
+				B155263D2494BAA300B9748A /* ChatUser.m in Sources */,
 				B1693509243F15B9009F5C01 /* ViewController.m in Sources */,
 				B1B65433246E6AA700E2F09B /* GreenCircle.m in Sources */,
 				B13C8F862487554400716B7D /* Dcircle.m in Sources */,
+				B15526222494ACC100B9748A /* TemplateViewController.m in Sources */,
 				B1A5BF8A244DDCF700BB69DA /* PrototypeViewController.m in Sources */,
 				B1A5BF78244DAB5400BB69DA /* VerBurger.m in Sources */,
 				B1A5BF55244D57FE00BB69DA /* FactoryProducer.m in Sources */,
 				B1A5BF87244DACDB00BB69DA /* MealBuilder.m in Sources */,
 				B14C2FB924665F6B0078CD4A /* VlcPlayer.m in Sources */,
 				B169355E243F27A8009F5C01 /* Rectangle.m in Sources */,
+				B152679F2489F49200FA87F5 /* StandardLogger.m in Sources */,
+				B15267BE248E0D7600FA87F5 /* Scontext.m in Sources */,
+				B155263A2494BA9900B9748A /* ChatRoom.m in Sources */,
 				B1A5BF52244D576400BB69DA /* ABlue.m in Sources */,
 				B13C8F80248625A100716B7D /* Employee.m in Sources */,
+				B15267B2248DE81700FA87F5 /* Broker.m in Sources */,
 				B13C8F92248773F900716B7D /* FacadeViewController.m in Sources */,
 				B13C8F9824877B5900716B7D /* ProxyViewController.m in Sources */,
+				B15267AC248DE6B700FA87F5 /* CBuyOrder.m in Sources */,
+				B15526342494B21F00B9748A /* CareTaker.m in Sources */,
 				B14875DB2480E29F00D9B216 /* OrCriteria.m in Sources */,
 				B1A5BF67244D75E100BB69DA /* BuilderViewController.m in Sources */,
+				B15267C1248E0D8300FA87F5 /* StopState.m in Sources */,
 				B1693503243F15B9009F5C01 /* AppDelegate.m in Sources */,
 				B14C2FBC24665F7B0078CD4A /* MP4Player.m in Sources */,
 				B1693514243F15BB009F5C01 /* main.m in Sources */,
 				B13C8F9E24877B8300716B7D /* ProxyImage.m in Sources */,
 				B13C8F8F2487586C00716B7D /* RedColorDecorator.m in Sources */,
 				B1A5BF61244D742700BB69DA /* SingletonViewController.m in Sources */,
+				B15267AF248DE73000FA87F5 /* Stock.m in Sources */,
 				B13C8F7A248624EC00716B7D /* CompositeViewController.m in Sources */,
 				B1693554243F18DE009F5C01 /* FactoryViewController.m in Sources */,
 				B1A5BF84244DACCB00BB69DA /* Meal.m in Sources */,
@@ -907,21 +1061,27 @@
 				B14C2FA8246650610078CD4A /* ProtoCircle.m in Sources */,
 				B1A5BF5B244D584700BB69DA /* ARect.m in Sources */,
 				B14875E42480F3F700D9B216 /* MarriedCriteria.m in Sources */,
+				B15526252494ACCC00B9748A /* Game.m in Sources */,
 				B1A5BF7B244DAB6500BB69DA /* ChickenBurger.m in Sources */,
 				B13C8FAB2487D8C900716B7D /* FlyweightViewController.m in Sources */,
 				B13C8FAE2487D90700716B7D /* FCircle.m in Sources */,
 				B1A5BF64244D743A00BB69DA /* Singleton.m in Sources */,
 				B13C8F952487742300716B7D /* ShapeMaker.m in Sources */,
+				B15267BB248E0D4800FA87F5 /* StateViewController.m in Sources */,
 				B14875D82480E28300D9B216 /* AndCriteria.m in Sources */,
 				B14875D12480E1BD00D9B216 /* FilterViewController.m in Sources */,
+				B15267B8248DEF9B00FA87F5 /* InterpreterViewController.m in Sources */,
 				B14875D42480E1EA00D9B216 /* Fperson.m in Sources */,
 				B1B65430246E6A8100E2F09B /* RedCircle.m in Sources */,
 				B1A5BF81244DAB9200BB69DA /* Coke.m in Sources */,
 				B1A5BF75244DAAF300BB69DA /* ColdDrink.m in Sources */,
+				B15267962489F01800FA87F5 /* ChainViewController.m in Sources */,
 				B1A5BF58244D581100BB69DA /* ACircle.m in Sources */,
+				B15267992489F45200FA87F5 /* AbstractLogger.m in Sources */,
 				B1A5BF4F244D575600BB69DA /* AYellow.m in Sources */,
 				B1A5BF8E244DDD9900BB69DA /* PrototypeModel.m in Sources */,
 				B1A5BF72244DAA5D00BB69DA /* Burger.m in Sources */,
+				B15526372494B23000B9748A /* Originer.m in Sources */,
 				B13C8F892487555900716B7D /* Drectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

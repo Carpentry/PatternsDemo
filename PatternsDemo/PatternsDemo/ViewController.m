@@ -20,6 +20,13 @@
 #import "FacadeViewController.h"
 #import "ProxyViewController.h"
 #import "FlyweightViewController.h"
+#import "ChainViewController.h"
+#import "CommandViewController.h"
+#import "InterpreterViewController.h"
+#import "StateViewController.h"
+#import "TemplateViewController.h"
+#import "MementoViewController.h"
+#import "MediatorViewController.h"
 
 @interface ViewController ()
 
@@ -30,7 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self.navigationController pushViewController:[[FlyweightViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[MediatorViewController alloc] init] animated:YES];
 }
 
 
